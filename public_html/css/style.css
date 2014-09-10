@@ -4,13 +4,18 @@
     color: white
 }
 
-#current-link {
+#link{
+    border: 5px solid black;
+    text-transform: uppercase;
     text-decoration: none;
+    margin-left: 500px;
+}
+#current-link{
+    border: 5px solid black;
 }
 .uppercase{
     text-transform: uppercase;
     font-size: 35px;
-    padding-left: 500px;
 }
 
 #index{
@@ -38,14 +43,16 @@
 
 #projects h1, h2{
     color:white
+        
 }
-
 #technology{
-    background-image: url(http://gdj.gdj.netdna-cdn.com/wp-content/uploads/2013/09/html5css3websites.jpg);
-    background-size:cover;
+    background-image: url(http://enjoythefresh.com/fi/wp-content/uploads/2012/02/html5_and_css3_logos_1.png)
 }
 
 h1{
   border: 5px solid white;
-  padding-left: 500px;
+  padding-left: 300px;
+}
+h2,p{
+    padding-left: 300px;
 }
